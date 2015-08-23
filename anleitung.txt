@@ -1,0 +1,74 @@
+Drehbare Sternkarte - Kurzanleitung
+
+Drehbare Sternkarten dienen der Orientierung am Sternenhimmel und
+können, je nach Ausstattung, als Rechenschieber für kleinere
+astronomische Berechnungen (Auf-, Untergang, Dämmerungsbeginn...)
+verwendet werden. Eine genauere Beschreibung der Möglichkeiten der
+drehbaren Sternkarte werden gerade in einem Erläuterungsheft
+niedergeschrieben.
+
+Die Karte
+
+Die Größe der dargestellten Sterne sind entsprechend ihrer Helligkeit
+am Himmel. Benannt sind die Namen der Sternbilder und in kleinerer
+Schrift die Namen einiger Sterne. Einige Besondere Objekte sind
+ebenfalls eingezeichnet. 
+
+Handhabung
+
+Himmelsausschnitt einstellen
+
+Drehen Sie die kleine, vordere Scheibe (Horizontfolie) und bringen Sie
+das Beobachtungsdatum auf der Datumskala mit der Ortszeit auf der
+Uhrzeitskala auf der kleineren, vorderen Scheibe zur Deckung. Der
+ovale Ausschnitt, der "künstliche Horizont", begrenzt den
+Himmelsausschnitt, der zur eingestellten Ortszeit\footnote{Der
+verwendete Begriff "Ortszeit" soll andeuten, daß dieses nicht die
+Uhrzeit ist, die unsere Armbanduhr anzeigt. Uhren sind in Deutschland
+nach der Mitteleuropäischen (Sommer)zeit, abgekürzt ME(S)Z,
+geeicht. Um aus der gesetzlichen Zeit die Ortszeit für Oldenburg
+(Oldb) zu errechnen, ziehen Sie von ihr 27 Minuten ab. Gilt die
+Sommerzeit, ist zusätzlich eine weitere Stunde abzuziehen. Beispiel:
+Am 9.10.1997 um 23.15 Uhr MESZ ist es erst 21.48 Uhr Ortszeit in
+Oldenburg. Diese Korrektur ist übrigens auch für alle im Handel
+erhältlichen drehbaren Sternkarten durchzuführen.} über Oldenburg zu
+sehen ist. Die Markierungen am Horizont geben die Himmelsrichtungen an
+(unten ist Süden). Etwa in der Mitte des Ausschnitts befindet sich der
+Punkt des Himmels, den wir sehen, wenn wir genau nach oben blicken. Im
+Gegensatz zu einer Landkarte ist deshalb Osten links. Drehen Sie nun
+die ganze Sternkarte so, daß die Himmelsrichtung, in die Sie am Himmel
+schauen möchten, nach unten zeigt.
+
+Wann geht ein Stern auf oder unter?
+
+Drehen Sie die Horizontscheibe solange, bis der Stern auf der Linie des Osthorizonts
+(für Aufgang) oder Westhorizonts (für Untergang) steht. Lesen Sie nun
+für das aktuelle Datum die Ortszeit ab (ggf. Sommerzeit
+berücksichtigen und eine Stunde hinzuzählen).
+
+Himmelskoordinaten eines Sternes
+
+Drehen Sie die Lotskala so, daß sie über dem Stern liegt. Sie können
+nun an der Lotskala die Deklination\footnote{Breite der Himmelskugel,
+Projektion der Breitenkreise der Erde an den Himmel} und an der
+äußersten Skala, der Rektaszensionsskala, ist die
+Rektaszension\footnote{Längengrade (gemessen in Stunden) der
+Himmelskugel}.  
+
+
+Über die Sternkarte
+
+Diese Sternkarte ist berechnet für die geographische Breite von
+Oldenburg-Wechloy (53°09' n.B.), alle Objekte für das Äquinoktium
+2000.0. Die Positionen und Helligkeiten der Sterne sind entnommen aus
+dem Sternkatalog "Yale Catalog of Bright Stars" der Yale University
+mit 9110 Sternen für den gesamten Himmel im Äquinoktium
+2000.0. Positionen von Galaxien, Nebeln und Sternhaufen wurden
+nachträglich nach Daten aus "Atlas für Himmelsbeobachter" von Erich
+Karkoschka, Kosmos-Verlag, Stuttgart 1989 (Äquinoktium 2000.0)
+hinzugefügt. Ein selbstgeschriebenes Postscript-Programm schließlich
+berechnete die Darstellung der Karte, des Horizonts und der Skalen.
+
+Idee und Herstellung: Michael Uhlemann mit Unterstützung von Jan
+Schormann.
+

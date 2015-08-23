@@ -1,0 +1,85 @@
+Tageslauf des Sternenhimmels
+
+Am 17.2.1600 wurde der Dominikanermönch Giordano Bruno auf dem
+Scheiterhaufen in Rom verbrannt, weil er behauptete, die Sterne, die
+wir von der Erde aus als Lichtpunkte sehen, seien Sonnen, wie die
+unsere. Längst wissen wir, daß er recht hatte. Die Sterne, die
+übrigens so groß sein können, daß die komplette Jupiterbahn darin
+Platz findet, sind nur deswegen so winzig, weil sie so weit weg
+sind. Der uns nächste Stern ist gute vier Lichtjahre entfernt, die
+anderen viel, viel weiter. Ein Lichtjahr ist die Entfernung, die das
+Licht in einem Jahr zurücklegt, das sind knapp 10 Billionen
+Kilometer. Zum Vergleich benötigt das Licht vom Mond zur Erde eine
+gute Sekunde, das Licht von der Sonne gute acht Minuten.
+(Lichtgeschwindigkeit = 300000km/s)
+
+Wie die Sonne, gehen auch die Sterne jeden Tag auf und unter. Da sie
+über den gesamten Erdenhimmel verteilt sind, stehen immer Sterne am
+Himmel. Tagsüber werden sie von der Aufhellung der Athmosphäre
+überstrahlt und sind somit unsichtbar. Die Redewendung "Wir müssen
+warten, bis die Sterne aufgegangen sind" ist also sinnlos. 
+
+Drehung des Himmels, bzw. der Erde
+
+Dadurch, daß die Sterne so weit weg sind, kann man an ihnen die
+Rotation der Erde um ihre eigene Achse beobachten, denn die Bewegung
+der Erde im Weltraum ist vernachlässigbar gering im Vergleich mit den
+riesigen Entfernungen zu den Sternen. Die scheinbare Drehung des
+Sternenhimmels ist das Spiegelbild der Erddrehung. Also: Die Sterne
+gehen (wie die Sonne) im Osten auf und im Westen unter. Daraus
+schließen wir, daß sich die Erde von Westen nach Osten dreht. Sie
+können das Experiment machen, indem Sie sich langsam um ihre Achse
+drehen und beobachten, in welche Richtung sich das Augenbild ihrer
+Umgebung dreht.
+
+Beobachten wir von Oldenburg aus den Sternenhimmel über mehrere
+Stunden, fällt auf, daß es Sterne gibt, die pro Zeit weite Strecken
+zurücklegen, andere bewegen sich nur langsam. Manche gehen auf und
+unter, andere hingegen bleiben immer über dem Horizont. Warum das so
+ist, kann man sich an einem Modell verdeutlichen. Wir nehmen einen
+Apfel mit Stiel, befestigen auf der Nordhalbkugel mit einer Nadel ein
+ebenes Stück Pappe. Die Pappe stellt den Horizont dar, der Nadelkopf
+den Beobachter. Drehen wir den Apfel am Stiel (der Rotationsachse), so
+können wir beobachten, daß vom Nadelkopf aus, einige Teile des Raumes
+nur zeitweise zu sehen sind (z.B. Fenster), andere immer
+(z.B. Zimmerlampe) und wieder andere nie (z.B. Füße). Übertragen auf
+die Erde gibt es Sterne und Sternbilder, die immer zu sehen sind
+(zirkumpolare Sterne, z.B. Großer Wagen), andere die nur zeitweise am
+Himmel sind (z.B. Wassermann), andere die nie aufgehen (z.B. Kreuz des
+Südens).  Welche Sterne immer, zeitweise oder nie zu sehen sind, hängt
+ab von der geographischen Breite des Beobachters.
+
+Sonne verschiebt Aufgangszeiten der Sterne
+
+Notiert man sich über mehrere Tage die Zeiten, zu denen ein Stern
+z.B. hinter einer Hausecke verschwindet, stellt man fest, daß dieses
+täglich knapp vier Minuten früher als am Vortage der Fall ist. Wie
+bereits erwähnt, spiegeln die Sterne die Rotation der Erde um die
+eigene Achse wider. Die Zeitdauer zwischen aufeinanderfolgendem
+Verschwinden des Sternes hinter der Hausecke muß also die Dauer einer
+Erdrotation sein. Doch warum dauert sie nur 23h56m und nicht 24h?
+
+Die Antwort liegt in der Definition des Tages. Ein Tag ist angelehnt
+an die mittlere Dauer, die zwischen zwei Durchgängen der Sonne durch
+den Süden vergeht. Ein Tag hat 24 Stunden, d.h. es gibt offenbar eine
+Differenz zwischen dem Lauf der Sonne und der Sterne. 
+
+Tatsächlich rotiert die Erde in 23h56m einmal um sich selbst, doch
+zeigt sie dann der Sonne nicht mehr dieselbe Seite zu, weil sie in der
+Zeit ein Stückchen weiter um die Umlaufbahn um die Sonne zurückgelegt
+hat. Das bedeutet im speziellen Fall für die Erde, daß sie sich etwas
+weiterdrehen muß, damit die Sonne wieder dieselbe Seite bescheint und
+für den Beobachter wieder im Süden steht. Dieses Nachdrehen dauert
+knapp vier Minuten (in Winkelgrad ausgedrückt, muß sich die Erde um
+ein knappes Grad weiterdrehen). Diese vier Minuten summieren sich in
+einem Jahr zu einem ganzen Tag. Daraus folgt, daß sich die Sonne vor
+dem Sternenhintergrund zu bewegen scheint und nach einem Jahr wieder
+an derselben Stelle am Sternenhimmel steht. (Man mache sich das klar,
+indem man beobachte, wie sich der Hintergrund eines Tisches
+verschiebt, wenn man um diesen Tisch herumgeht.) Da Himmelshelligkeit
+und -dunkelheit von der Sonne abhängig sind, können wir zu
+unterschiedlichen Jahreszeiten unterschiedliche Sternbilder sehen. Ein
+Hilfmittel, um festzustellen, welche Sternbilder zu welcher Zeit zu
+sehen sind, ist die Drehbare Sternkarte.
+
+

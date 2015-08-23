@@ -1,0 +1,47 @@
+Drehbare Sternkarte - Bauanleitung
+
+Das Bastelset besteht aus einem festeren Papier mit aufgedrucktem
+Sternenfeld inclusive Skalen, einer auf Folie gedruckten
+Horizontscheibe und ebenfalls auf der Folie aufgedruckter
+Lotskala. Folgende Dinge müssen Sie selbst hinzusteuern: eine festere
+Pappe und eine Stecknadel. Als Arbeitsmittel benötigen Sie eine
+Schere. 
+
+Ausschneiden der drei Komponenten
+
+Schneiden Sie die Sternkarte mit den dazugehörigen Skalen aus (die
+Skalen sind nicht extra auszuschneiden, sondern müssen mit der Karte
+verbunden bleiben.) Stechen Sie durch den Himmelpol, angedeutet durch
+ein kleines Kreuz im Kleinen Bären, mit der Nadel ein Loch. 
+
+Schneiden Sie nun aus der Folie die Lotskala aus. Lassen Sie neben der
+Skala etwas Rand. Stechen Sie am Schnittpunkt vom langen Strich und
+dem 90°-Strich mit der Nadel ein Loch. 
+
+Als letztes schneiden Sie nun die Horizontscheibe mit ihrer Skala aus
+(wieder muß beides zusammenbleiben). In der Mitte ist ein Kreuz
+angedeutet, auch dort ist ein Nadelloch zu machen. 
+
+Zusammensetzen der Komponenten
+
+Zur Stabilisierung können Sie das Sternenfeld auf eine rund
+ausgeschnittene Pappe kleben\footnote{Verwenden Sie kein
+Uhu-Alleskleber, da mit ihm das Papier wellig werden kann.} und das
+Nadelloch des Sternenfeldes von oben durch die Pappe bohren. Stecken
+Sie nun die Nadel von unten durch das Sternenfeld und setzen Sie
+nacheinander Lotskala und Horizontfolie auf, indem sie die Löcher auf
+die Nadelspitze legen und die Folien vorsichtig zum Sternenfeld
+schieben. 
+
+Genauigkeit
+
+Möglicherweise passen die Scheiben nicht genau aufeinander. Das kann
+mehrere Ursachen haben: Kartenfeld und Horziont sind mit einem
+Laserdrucker gedruckt, der Horizont ist anschließend auf Folie kopiert
+worden. Da Laserdrucker und vor allem Fotokopierer keine
+Präzisionsmaschinen sind (es können Verzerrungen auftreten), kann es
+zu Ungenauigkeiten kommen. Weitere Ungenauigkeiten können durch
+ungenaues Zusammenbauen zustandekommen. Baut man diese Sternkarte im
+Großformat, so treten Bau-Ungenauigkeiten nicht mehr so stark in
+Erscheinung und es läßt sich genauer ablesen, als bei handelsüblichen
+Drehbaren Sternkarten.

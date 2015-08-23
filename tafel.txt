@@ -1,0 +1,47 @@
+Drehbare Sternkarte
+
+Drehen Sie an der großen, hinteren Scheibe und bringen Sie das
+Beobachtungsdatum auf der Datumskala mit der Ortszeit auf der
+Uhrzeitskala auf der kleineren, vorderen Scheibe zur Deckung. Der
+ovale Ausschnitt, der "künstliche Horizont", begrenzt den
+Himmelsausschnitt, der zur eingestellten Ortszeit über Oldenburg zu
+sehen ist. Die Markierungen am Horizont geben die Himmelsrichtungen an
+(unten ist Süden). Etwa in der Mitte des Ausschnitts befindet sich der
+Punkt des Himmels, den wir sehen, wenn wir genau nach oben blicken. Im
+Gegensatz zu einer Landkarte ist deshalb Osten links. Eine drehbare
+Handsternkarte würde man nun so drehen, daß die Himmelsrichtung, in
+die man am Himmel schauen möchte, nach unten zeigt. Dieses ist hier
+leider nicht möglich.
+
+Der verwendete Begriff "Ortszeit" soll andeuten, daß dieses nicht die
+Uhrzeit ist, die unsere Armbanduhr anzeigt. Uhren sind in Deutschland
+nach der Mitteleuropäischen (Sommer)zeit, abgekürzt ME(S)Z,
+geeicht. Um aus der gesetzlichen Zeit die Ortszeit für Oldenburg
+(Oldb) zu errechnen, ziehen Sie von ihr 27 Minuten ab. Gilt die
+Sommerzeit, ist zusätzlich eine weitere Stunde abzuziehen. Beispiel:
+Am 9.8.1997 um 23.15 Uhr MESZ ist es erst 21.48 Uhr Ortszeit in
+Oldenburg. Diese Korrektur ist übrigens auch für alle im Handel
+erhältlichen drehbaren Sternkarten durchzuführen.
+
+Drehbare Sternkarten dienen der Orientierung am Sternenhimmel und
+können, je nach Ausstattung, als Rechenschieber für kleinere
+astronomische Berechnungen (Auf-, Untergang, Dämmerungsbeginn...)
+verwendet werden. Eine genauere Beschreibung der Möglichkeiten dieser
+drehbaren Sternkarte finden Sie im beigehängten Erläuterungsheft.
+
+Konstruiert haben diese Sternkarte Michael Uhlemann und Jan Schormann
+aus Anlaß der Ausstellung der Astronomie AG zum Ende des
+Sommersemesters 1997 in der Ringebene in der Uni Wechloy. Die Idee
+entstand, weil ihnen die Darstellung der Sichtbarkeit des Kometen
+Hale-Bopp in der vorherigen Kometen-Ausstellung als ungeeignet erschien.
+
+Diese Sternkarte ist berechnet für die geographische Breite von
+Oldenburg-Wechloy (53°09' n.B.), alle Objekte für das Äquinoktium
+2000.0. Die Positionen und Helligkeiten der Sterne sind entnommen aus
+dem Sternkatalog "Yale Catalog of Bright Stars" der Yale University
+mit 9110 Sternen für den gesamten Himmel im Äquinoktium
+2000.0. Positionen von Galaxien, Nebeln und Sternhaufen wurden
+nachträglich nach Daten aus "Atlas für Himmelsbeobachter" von Erich
+Karkoschka, Kosmos-Verlag, Stuttgart 1989 (Äquinoktium 2000.0)
+hinzugefügt. Ein selbstgeschriebenes Postscript-Programm schließlich
+berechnete die Darstellung der Karte, des Horizonts und der Skalen.
