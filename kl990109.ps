@@ -127,6 +127,20 @@
 		% besitzen.
 
 %
+%  Farben invertieren?
+%
+
+/invertieren 1 def	% Bei schwarz/weiss Druck: wenn die Zahl 0 ist, dann
+			% wird schwarz auf weiss gedruckt, wenn die Zahl 1 ist, dann
+			% werden die Farben der zu druckenden Objekte invertiert.
+			% 
+			% Besser wäre es einen Drucker zu benutzen, welcher mit
+			% weisser Farbe drucken kann.
+			% 
+			% Die Umsetzung des 'intertieren' Modus ist nicht perfekt.
+			% Verbesserungen bitte in https://github.com/tpo/KL-990109
+			% einpflegen.
+
 %
 %  Mehrfachdruck
 %
@@ -186,6 +200,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%% Programmcode! Ab hier bitte keine Änderungen mehr durchführen! %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+invertieren 1 eq { {1 exch sub} settransfer } if
 
 /MerkurR  MerkurR   15 mul def
 /VenusR   VenusR    15 mul def
@@ -1371,6 +1387,16 @@ grestore
   grestore
 } def
 
+/fuelle-kreis-weiss {
+  /radius exch def
+  gsave
+  1 setgray
+  radius 0 moveto
+  0 0 radius 0 360 arc
+  fill
+  grestore
+} def
+
 /teilstriche {   %% Anzahl Strichlaenge Modulo --> -
 % Bei Modulo == 0 werden alle Striche gezeichnet,
 % Modulo == n wird von n Strichen der erste nicht gezeichnet.
@@ -2368,6 +2394,9 @@ skalenStrichDicke setlinewidth
 
 %%horizont-uhrzeit-kreis zeichne-kreis
 quadrant 0 eq { 
+    % wenn invertiert gezeichnet wird malt
+    % nächste Zeile schwarzen Hintergrund
+    rekt-begrenzung  fuelle-kreis-weiss
     uhrzeit-datum-kreis  zeichne-kreis
     datum-rekt-kreis  zeichne-kreis
     rekt-begrenzung  zeichne-kreis
