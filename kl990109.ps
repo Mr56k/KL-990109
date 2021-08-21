@@ -31,58 +31,58 @@
 
 %% Anpassungen durch BenutzerIn: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%  Hier können Sie die Karte nach Ihren Bedürfnissen anpassen. 
-%  Für Änderungen außerhalb dieses Bereichs können wir nur warnen, da
+%  Hier kÃ¶nnen Sie die Karte nach Ihren BedÃ¼rfnissen anpassen. 
+%  FÃ¼r Ã„nderungen auÃŸerhalb dieses Bereichs kÃ¶nnen wir nur warnen, da
 %  Sie sonst in den Programmtext eingreifen
 %
 %
 %  Geographische Breite 
 
-/phi 53.15  	% Geographische Breite Oldenburg.
+/phi 50.30  	% Geographische Breite Oldenburg.
 	def	% Tragen Sie statt 53.15 Ihre geographische
-		% Breite ein. Negativ für südliche Halbkugel
+		% Breite ein. Negativ fÃ¼r sÃ¼dliche Halbkugel
 
-		% Wollen Sie für den Äquator eine südliche Karte erhalten,
-		% wählen Sie /phi -0.01 def
+		% Wollen Sie fÃ¼r den Ã„quator eine sÃ¼dliche Karte erhalten,
+		% wÃ¤hlen Sie /phi -0.01 def
 
-/gLen -8 11 ' 	% Geographische Länge (westl. Positiv, östl. Negativ)
-           def	% unerheblich für Berechnung, dient lediglich der Angabe
-		% auf Horizonscheibe. Wird unterdrückt, wenn für Ortsname
+/gLen -11 55 ' 	% Geographische LÃ¤nge (westl. Positiv, Ã¶stl. Negativ)
+           def	% unerheblich fÃ¼r Berechnung, dient lediglich der Angabe
+		% auf Horizonscheibe. Wird unterdrÃ¼ckt, wenn fÃ¼r Ortsname
 		% /ortsname () def definiert ist.
 
-/ortsname (Oldenburg) def
+/ortsname (Sternwarte Hof) def
 		% Name des Ortes zur Angabe auf der Horizontscheibe.
-		% Dieser muß in runden Klammern stehen!
+		% Dieser muÃŸ in runden Klammern stehen!
 		% Achten Sie unbedingt auf die besondere Notation von
 		% Runden Klammern und Umlauten, sonst erhalten Sie keine
 		% Drehbare Sternkarte! 
-		% Ä = \304   Ö = \326   Ü = \334   ( = \050   ) = \051   
-		% ä = \344   ö = \366   ü = \374   ß = \337
-		% Für weitere können Sie in die Tabelle "Zeichendefinition"
+		% Ã„ = \304   Ã– = \326   Ãœ = \334   ( = \050   ) = \051   
+		% Ã¤ = \344   Ã¶ = \366   Ã¼ = \374   ÃŸ = \337
+		% FÃ¼r weitere kÃ¶nnen Sie in die Tabelle "Zeichendefinition"
 		% etwa ab Zeile 370 nachschauen.
 		%
-		% Möchten Sie nur die geographische Breite angeben, 
-		% wählen Sie als Ortsnamen ()
-		% Möchten Sie keinen Ort, aber Breite und Länge angeben,
-		% wählen Sie als Ortsnamen ( )
+		% MÃ¶chten Sie nur die geographische Breite angeben, 
+		% wÃ¤hlen Sie als Ortsnamen ()
+		% MÃ¶chten Sie keinen Ort, aber Breite und LÃ¤nge angeben,
+		% wÃ¤hlen Sie als Ortsnamen ( )
 
 %
 %  Auswahl der darzustellenden Kartenelemente
 %
 %
 %     Relevant ist die Zahl, die vor dem "def" steht. 
-%     Sie können die Zahlen entsprechend Ihrer Wünsche ändern.
+%     Sie kÃ¶nnen die Zahlen entsprechend Ihrer WÃ¼nsche Ã¤ndern.
 %     Dabei bedeuten: 
 %          1: darstellen
 %          0: nicht darstellen
 
-/user-b-daemm    1 def	% Linie für bürgerliche Dämmerung
-/user-n-daemm    1 def	% Linie für nautische Dämmerung
-/user-a-daemm    1 def	% Linie für astronomische Dämmerung
+/user-b-daemm    1 def	% Linie fÃ¼r bÃ¼rgerliche DÃ¤mmerung
+/user-n-daemm    1 def	% Linie fÃ¼r nautische DÃ¤mmerung
+/user-a-daemm    1 def	% Linie fÃ¼r astronomische DÃ¤mmerung
 /user-pol        1 def	% Pol (empfehlenswert, wegen der Drehachse!)
 /user-ostwest    1 def	% Verbindungslinie Ost-Zenith-West
 /user-nordsued   1 def	% Meridian
-/user-zenith     0 def	% Zenith (unnötig, wenn user-nordsued u user-ostwest 1)
+/user-zenith     0 def	% Zenith (unnÃ¶tig, wenn user-nordsued u user-ostwest 1)
 /user-himmelsr   1 def	% Namen der Himmelsrichtungen
 /user-lot        1 def	% Lot zeichnen
 
@@ -93,15 +93,15 @@
 /user-deepsky    1 def	% Deepsky-Objekte
 /user-deepskyname 1 def	% Namen der Deepsky-Objekte
 /user-ekliptik   1 def	% Ekliptik
-/user-aequator   1 def	% Äquatorlinie
-/user-linienname 1 def	% Namen von Äquator und Ekliptik
+/user-aequator   1 def	% Ã„quatorlinie
+/user-linienname 1 def	% Namen von Ã„quator und Ekliptik
 
 
 %
 %  Grenzhelligkeit
 %
 
-/grenzhelligkeit 6.2 def  % Helligkeit der schwächsten darzustellenden Sterne
+/grenzhelligkeit 6.2 def  % Helligkeit der schwÃ¤chsten darzustellenden Sterne
 
 
 
@@ -109,11 +109,11 @@
 %  Folienausdruck
 %
 
-/folie 0 def  	% Ändern Sie die Zahl zu einer 1, wenn Sie die Karte
-		% komplett auf Folie drucken möchten, um sie auf einem 
-		% Overheadprojektor zu präsentieren. Damit sie von
+/folie 1 def  	% Ã„ndern Sie die Zahl zu einer 1, wenn Sie die Karte
+		% komplett auf Folie drucken mÃ¶chten, um sie auf einem 
+		% Overheadprojektor zu prÃ¤sentieren. Damit sie von
 		% Seminarteilnehmern gesehen werden kann, wird die 
-		% teilweise die Strichdicke geändert und einige Elemente
+		% teilweise die Strichdicke geÃ¤ndert und einige Elemente
 		% fortgelassen. Wenn Sie die Karte auf Papier drucken wollen,
 		% empfehlen wir die Angabe 0.
 
@@ -122,19 +122,19 @@
 %  Farbe
 %
 
-/farbe 0 def	% Wenn die Zahl 1 ist, wird eine farbige Karte gedruckt.
-		% Lassen Sie den Wert auf 0, wenn Sie einen Schwarzweißdrucker
+/farbe 1 def	% Wenn die Zahl 1 ist, wird eine farbige Karte gedruckt.
+		% Lassen Sie den Wert auf 0, wenn Sie einen SchwarzweiÃŸdrucker
 		% besitzen.
 
 %
 %  Farben invertieren?
 %
 
-/invertieren 1 def	% Bei schwarz/weiss Druck: wenn die Zahl 0 ist, dann
+/invertieren 0 def	% Bei schwarz/weiss Druck: wenn die Zahl 0 ist, dann
 			% wird schwarz auf weiss gedruckt, wenn die Zahl 1 ist, dann
 			% werden die Farben der zu druckenden Objekte invertiert.
 			% 
-			% Besser wäre es einen Drucker zu benutzen, welcher mit
+			% Besser wÃ¤re es einen Drucker zu benutzen, welcher mit
 			% weisser Farbe drucken kann.
 			% 
 			% Die Umsetzung des 'intertieren' Modus ist nicht perfekt.
@@ -156,7 +156,7 @@
 
 /muster 0 def	% Bei Probeausdruck kann der Wert auf 1 gesetzt werden,
 		% um evtl. Zusatzinformationen zu erhalten
-/quadrant 0 def % Wenn Karte für Quadrantenrückseite gedruckt werden soll, auf 1 setzen
+/quadrant 0 def % Wenn Karte fÃ¼r QuadrantenrÃ¼ckseite gedruckt werden soll, auf 1 setzen
 
 %
 %  Raster
@@ -166,7 +166,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-/planetarium 0 def %% Achtung! Wenn dieses auf 1 gesetzt wird muß im 
+/planetarium 0 def %% Achtung! Wenn dieses auf 1 gesetzt wird muÃŸ im 
 		   %  Header-File %%Pages: 2 gesetzt werden und
 		   %  drei Kommentierungen in etwa Zeile 2300 beachten!
 		   %  Postscript-Drucker streikt sonst!
@@ -183,7 +183,7 @@
 % A = Planet darstellen (1 ja, 0 nein)
 % B = Rektaszension in Stunden, Minuten
 % C = Deklination in Grad, Minuten
-% D = Helligkeit. Nicht heller als -6 für Sonne, Mond; -1 für helle Planeten
+% D = Helligkeit. Nicht heller als -6 fÃ¼r Sonne, Mond; -1 fÃ¼r helle Planeten
 %
 %     |-A-|             |--B----|             |---C----|              |--D-| 
 
@@ -198,7 +198,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%% Programmcode! Ab hier bitte keine Änderungen mehr durchführen! %%%%%
+%%%%% Programmcode! Ab hier bitte keine Ã„nderungen mehr durchfÃ¼hren! %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 invertieren 1 eq { {1 exch sub} settransfer } if
@@ -376,7 +376,7 @@ quadrant 1 eq {
 /datinnen dataussen datbreite sub def
 
 
-% Schriftgröße %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SchriftgrÃ¶ÃŸe %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 /monatsnamenSize 
 1 folie eq 
@@ -441,28 +441,28 @@ end
 } def
 
 
-%%%  Zeichendefinition für den ISO 8859-1-Zeichensatz (ANSI) %%%%%%%%%%%%
+%%%  Zeichendefinition fÃ¼r den ISO 8859-1-Zeichensatz (ANSI) %%%%%%%%%%%%
 %
-% Falls Sie Buchstaben erzeugen möchten, die zusätzliche Akzente besitzen,
-% können Sie in der folgenden Tabelle nachschlagen. In ihr wird definiert,
-% welches Zeichen durch welchen Zahlencode repräsentiert wird 
-% und erscheinen wird, wenn Sie nach dem rückwärtigen Schrägstrich 
+% Falls Sie Buchstaben erzeugen mÃ¶chten, die zusÃ¤tzliche Akzente besitzen,
+% kÃ¶nnen Sie in der folgenden Tabelle nachschlagen. In ihr wird definiert,
+% welches Zeichen durch welchen Zahlencode reprÃ¤sentiert wird 
+% und erscheinen wird, wenn Sie nach dem rÃ¼ckwÃ¤rtigen SchrÃ¤gstrich 
 % (Backslash) die entsprechende Zahlenkombination eingeben.
 %
-% Jedes Zeichen hat eine Zeile für sich. Für Sie interessant ist die
+% Jedes Zeichen hat eine Zeile fÃ¼r sich. FÃ¼r Sie interessant ist die
 % Ziffernfolge, die auf "8#" folgt, sowie der Name des Zeichens, der vor
-% dem Wörtchen "put" steht. Es ist natürlich ratsam, wenn man die
-% Bezeichnungen der Akzente kennt (è e-grave, é e-aigu, ê e-circumflex, 
-% ë e-dieresis, ç c-cedile, ñ n-tilde etc.), doch oft kann man auch erraten,
-% was gemeint ist. (Sollten Sie den GNU-Emacs verwenden, können Sie die
+% dem WÃ¶rtchen "put" steht. Es ist natÃ¼rlich ratsam, wenn man die
+% Bezeichnungen der Akzente kennt (Ã¨ e-grave, Ã© e-aigu, Ãª e-circumflex, 
+% Ã« e-dieresis, Ã§ c-cedile, Ã± n-tilde etc.), doch oft kann man auch erraten,
+% was gemeint ist. (Sollten Sie den GNU-Emacs verwenden, kÃ¶nnen Sie die
 % Codes auch ausprobieren, geben Sie Control-q (= Strg-q) gefolgt von den
-% drei Ziffern ein und drücken Sie die Leertaste.)
+% drei Ziffern ein und drÃ¼cken Sie die Leertaste.)
 %
-% Beispiel: Sie möchten den Ortsnamen São Paolo eintragen. Sie müssen
+% Beispiel: Sie mÃ¶chten den Ortsnamen SÃ£o Paolo eintragen. Sie mÃ¼ssen
 % 	    also nach dem a mit der Tilde suchen, also atilde
 %	    Sie finden /atilde in der Tabelle in der Zeile:
 %	    dup 8#343 /atilde put
-%           Der Name "São Paolo" läßt sich schreiben als "S\343o Paolo".
+%           Der Name "SÃ£o Paolo" lÃ¤ÃŸt sich schreiben als "S\343o Paolo".
 %
 
 
@@ -859,9 +859,9 @@ deepskySize scalefont def
   /diff Er dup sinR exz mul sub Mr sub def
 %  /diff Er dup sinR Mr exz mul mul sub def
 
-  %% Lösen der Keplergleichung
+  %% LÃ¶sen der Keplergleichung
   
-  1 1 6 {  %% Hier hätte ich gerne eine While-Schleife
+  1 1 6 {  %% Hier hÃ¤tte ich gerne eine While-Schleife
     diff abs genau ge {
       /Er    Er diff 1 Er cosR exz mul sub div sub def
       /diff  Er dup sinR exz mul sub Mr sub def
@@ -1222,7 +1222,7 @@ grestore
 } def
 
 
-%%% Astronomische Großkreise
+%%% Astronomische GroÃŸkreise
 
 /zeichne-aequator { 
   gsave
@@ -1246,10 +1246,10 @@ grestore
     sternbildfont setfont
     0 0 moveto
     0 deklscale pol mul  sternbildnamenSize 1.25 mul add neg -90 
-    (Ä q u a t o r) arcshow
+    (Ã„ q u a t o r) arcshow
     0 0 moveto
     0 deklscale pol mul  sternbildnamenSize 1.25 mul add neg 90 
-    (Ä q u a t o r) arcshow
+    (Ã„ q u a t o r) arcshow
   } if  
 
   grestore
@@ -1868,7 +1868,7 @@ grestore
    gsave
  %%  nordpol-x nordpol-y translate
 
-   horizont-flag 1 eq {   %% Himmel weiß machen
+   horizont-flag 1 eq {   %% Himmel weiÃŸ machen
        1 setgray
        newpath
 %%	 phi  hoehe 0 horizontal-to-punkt moveto
@@ -1938,7 +1938,7 @@ zeichne-umriss
   clip 
   
   user-b-daemm  1 eq {  phi -6  pol mul 0 zeichne-hoehenlinie
-  			(bürgerl.) -6  daemmerungsName } if
+  			(bÃ¼rgerl.) -6  daemmerungsName } if
   user-n-daemm  1 eq {  phi -12 pol mul 0 zeichne-hoehenlinie
   			(nautisch) -12 daemmerungsName } if
   user-a-daemm  1 eq {  phi -16 pol mul 0 zeichne-hoehenlinie
@@ -2395,7 +2395,7 @@ skalenStrichDicke setlinewidth
 %%horizont-uhrzeit-kreis zeichne-kreis
 quadrant 0 eq { 
     % wenn invertiert gezeichnet wird malt
-    % nächste Zeile schwarzen Hintergrund
+    % nÃ¤chste Zeile schwarzen Hintergrund
     rekt-begrenzung  fuelle-kreis-weiss
     uhrzeit-datum-kreis  zeichne-kreis
     datum-rekt-kreis  zeichne-kreis
@@ -3517,12 +3517,12 @@ sternbildnamenStart
 17.0 15 mul -50.7 0 0.5 	1 (Ara) (Ara) (Altar) SBN
 2.0     15 mul 17.375 0 0.5	1 (Ari) (Aries) (Widder) SBN
 5.475 15 mul 39.06 0 0.5 	1 (Aur) (Auriga) (Fuhrmann) SBN
-14.4 15 mul 25.0 0 0.5		1 (Boo) (Bootes) (Bärenhüter) SBN
+14.4 15 mul 25.0 0 0.5		1 (Boo) (Bootes) (BÃ¤renhÃ¼ter) SBN
 4.75 15 mul -37.5 0 0.5 	1 (Cae) (Caelum) (Grabstichel) SBN
 4.975 15 mul 63.39 0 0.5	1 (Cam) (Camelopardalis) (Giraffe) SBN
 8.725 15 mul 13.44 0 0.5	1 (Cnc) (Cancer) (Krebs) SBN
 12.7417 15 mul 36.84 0 0.5	1 (CVn) (Canes Venatici) (Jagdhunde) SBN
-6.63333 15 mul -24.18 0 0.5	1 (CMa) (Canis Major) (Großer Hund) SBN
+6.63333 15 mul -24.18 0 0.5	1 (CMa) (Canis Major) (GroÃŸer Hund) SBN
 7.55 15 mul 11.755 0 0.5 	1 (CMi) (Canis Minor) (Kleiner Hund) SBN
 20.95 15 mul -20.0 0 0.5	1 (Cap) (Capricornus) (Steinbock) SBN
 7.35833 15 mul -59.0 20 -0.1	1 (Car) (Carina) (Schiffskiel) SBN
@@ -3530,11 +3530,11 @@ sternbildnamenStart
 13.0 15 mul -48.77 20 0.5	1 (Cen) (Centaurus) (Zentaur) SBN
 22.2917 15 mul 70.01 0 0.5	1 (Cep) (Cepheus) (Kepheus) SBN
 1.45 15 mul -12.0 0 0.5  	1 (Cet) (Cetus) (Walfisch) SBN
-10.15 15 mul -82.22 0 0.5	1 (Cha) (Chamaeleon) (Chamäleon) SBN
+10.15 15 mul -82.22 0 0.5	1 (Cha) (Chamaeleon) (ChamÃ¤leon) SBN
 15.5333 15 mul -62.16 -45 0.5	1 (Cir) (Circinus) (Zirkel) SBN
 5.64167 15 mul -32.07 0 0.5	1 (Col) (Columba) (Taube) SBN
 12.8083 15 mul 22.9 0 0.5	1 (Com) (Coma Berenices) (Haar der Berenike) SBN
-19.3 15 mul -39.5 90 0.5 	1 (CrA) (Corona Australis) (Südl. Krone) SBN
+19.3 15 mul -39.5 90 0.5 	1 (CrA) (Corona Australis) (SÃ¼dl. Krone) SBN
 15.7417 15 mul 24.135 0 0.8	1 (CrB) (Corona Borealis) (N. Krone) SBN
 12.3667 15 mul -20.0 0 0.5	1 (Crv) (Corvus) (Rabe) SBN
 11.2000 15 mul -18.0 0 0.5	1 (Crt) (Crater) (Becher) SBN
@@ -3543,7 +3543,7 @@ sternbildnamenStart
 20.630 15 mul 10.0 0 0.5	1 (Del) (Delphinus) (Delphin) SBN
 5.10833 15 mul -56.995 45 0.5	1 (Dor) (Dorado) (Schwertfisch) SBN
 17.0083 15 mul 60.77 0 0.5	1 (Dra) (Draco) (Drache) SBN
-21.2083 15 mul 3.69 0 0.5	1 (Equ) (Equuleus) (Füllen) SBN
+21.2083 15 mul 3.69 0 0.5	1 (Equ) (Equuleus) (FÃ¼llen) SBN
 3.5 15 mul -12.51 0 0.5 	1 (Eri) (Eridianus) (Eridanus) SBN %% perHand dazu
 -1 pol eq { 3.5 15 mul -41.1  0 0.5 	1 (Eri) (Eridianus) (Eridanus) SBN } if %% perHand dazu
 2.75833 15 mul -29.2 -30 0.5	1 (For) (Fornax) (Chem. Ofen) SBN
@@ -3556,8 +3556,8 @@ sternbildnamenStart
 1.96667 15 mul -69.41 90 -1.0	1 (Hyi) (Hydrus) (Kl. Wasserschl.) SBN
 20.5583 15 mul -52.87 80 0.5	1 (Ind) (Indus) (Inder) SBN
 22.5167 15 mul 48.78 0 0.5	1 (Lac) (Lacerta) (Eidechse) SBN
-10.9   15 mul 18.0 0 0.5	1 (Leo) (Leo) (Löwe) SBN
-10.6667 15 mul 34.46 0 0.5	1 (LMi) (Leo Minor) (Kleiner Löwe) SBN
+10.9   15 mul 18.0 0 0.5	1 (Leo) (Leo) (LÃ¶we) SBN
+10.6667 15 mul 34.46 0 0.5	1 (LMi) (Leo Minor) (Kleiner LÃ¶we) SBN
 5.5 15 mul -22.50  0 0.5	1 (Lep) (Lepus) (Hase) SBN
 15.2 15 mul -14.33 0 0.5	1 (Lib) (Libra) (Waage) SBN
 14.9  15 mul -48.28 -55 0.5	1 (Lup) (Lupus) (Wolf) SBN
@@ -3566,22 +3566,22 @@ sternbildnamenStart
 20.9 15 mul -37.365 0 0.5	1 (Mic) (Microscopium) (Mikroskop) SBN
 7.1 15 mul -5.0 0 0.5 		1 (Mon) (Monoceros) (Einhorn) SBN
 11.1417 15 mul -73.43 0 0.5	1 (Mus) (Musca) (Fliege) SBN
-16.1 15 mul -48.855 -60 0.5	1 (Nor) (Norma) (Winkelmaß) SBN
+16.1 15 mul -48.855 -60 0.5	1 (Nor) (Norma) (WinkelmaÃŸ) SBN
 18.6 15 mul -84.525 -5 0.5	1 (Oct) (Octans) (Oktant) SBN
-17.1167 15 mul 2.73 0 0.5	1 (Oph) (Ophiuchus) (Schlangenträger) SBN
+17.1167 15 mul 2.73 0 0.5	1 (Oph) (Ophiuchus) (SchlangentrÃ¤ger) SBN
 5.50833 15 mul -9.67 0 0.0	1 (Ori) (Orion) (Orion) SBN
 18.925 15 mul -67.23 0 0.5	1 (Pav) (Pavo) (Pfau) SBN
 23.6533 15 mul 23.0 0 0.5	1 (Peg) (Pegasus) (Pegasus) SBN
 3.54167 15 mul 37.5 0 0.5	1 (Per) (Perseus) (Perseus) SBN
-0.95 15 mul -43.32 20 0.5	1 (Phe) (Phoenix) (Phönix) SBN
+0.95 15 mul -43.32 20 0.5	1 (Phe) (Phoenix) (PhÃ¶nix) SBN
 5.8 15 mul -53.59 40 0.5 	1 (Pic) (Pictor) (Maler) SBN
 1.00833 15 mul 5.58 0 0.5	1 (Psc) (Pisces) (Fische) SBN
-22.50 15 mul -30.0 0 -0.3	1 (PsA) (Pisces Austrinus) (Südlicher Fisch) SBN
+22.50 15 mul -30.0 0 -0.3	1 (PsA) (Pisces Austrinus) (SÃ¼dlicher Fisch) SBN
 7.500 15 mul -40.0 -45 0.5	1 (Pup) (Puppis) (Achterschiff) SBN
-8.7 15 mul -30.45 0 0.5 	1 (Pyx) (Pyxis) (Kompaß) SBN
+8.7 15 mul -30.45 0 0.5 	1 (Pyx) (Pyxis) (KompaÃŸ) SBN
 3.58333 15 mul -59.3 120 -1	1 (Ret) (Reticulum) (Netz) SBN
 19.925 15 mul 17.485 0 0.5	1 (Sge) (Sagitta) (Pfeil) SBN
-18.5833 15 mul -21.11 0 0.5	1 (Sgr) (Sagittarius) (Schütze) SBN
+18.5833 15 mul -21.11 0 0.5	1 (Sgr) (Sagittarius) (SchÃ¼tze) SBN
 16.4 15 mul -31.2 0 0.0	 	1 (Sco) (Scorpius) (Skorpion) SBN
 0.708333 15 mul -29.36 0 0.5	1 (Scl) (Sculptor) (Bildhauer) SBN
 18.65 15 mul -9.0 0 0.5		1 (Sct) (Scutum) (Schild) SBN
@@ -3591,14 +3591,14 @@ sternbildnamenStart
 3.88333 15 mul 15.68 0 0.5	1 (Tau) (Taurus) (Stier) SBN
 18.3 15 mul -50.00 90 0.5	1 (Tel) (Telescopium) (Teleskop) SBN
 2.33333 15 mul 31.0 0 0.5	1 (Tri) (Triangulum) (Dreieck) SBN
-16.3 15 mul -69.32 -30 0.5	1 (TrA) (Triangulum Australe) (Südl. Dreieck) SBN
+16.3 15 mul -69.32 -30 0.5	1 (TrA) (Triangulum Australe) (SÃ¼dl. Dreieck) SBN
 23.325 15 mul -65.00 40 0.5	1 (Tuc) (Tucana) (Tukan) SBN
-12.7167 15 mul 60.34 0 0.5	1 (UMa) (Ursa Major) (Großer Bär) SBN
-16.1833 15 mul 80.365 0 0.0	1 (UMi) (Ursa Minor) (Kleiner Bär) SBN
+12.7167 15 mul 60.34 0 0.5	1 (UMa) (Ursa Major) (GroÃŸer BÃ¤r) SBN
+16.1833 15 mul 80.365 0 0.0	1 (UMi) (Ursa Minor) (Kleiner BÃ¤r) SBN
 8.75833 15 mul -51.17 0 0.5	1 (Vel) (Vela) (Segel) SBN
 12.5 15 mul -3.105 0 0.5	1 (Vir) (Virgo) (Jungfrau) SBN
 7.325 15 mul -71.51 -20 0.5	1 (Vol) (Volans) (Fl. Fisch) SBN
-20.8333 15 mul 24.66 0 0.5	1 (Vul) (Vulpecula) (Füchschen) SBN
+20.8333 15 mul 24.66 0 0.5	1 (Vul) (Vulpecula) (FÃ¼chschen) SBN
 sternbildnamenEnde
 restore
 
@@ -3611,12 +3611,12 @@ restore
 %%17 h 41 m 0 R +1 -53.70 0 0 D  17 h 00 m 0 R +1 -53.70 0 0 D  mitte 0 (Ara) (Ara) (Altar) SBN
 %%2 h 07 m 0 R +1 +23.46 0 0 D  1 h 53 m 0 R +1 +19.29 0 0 D  mitte 1 (Ari) (Aries) (Widder) SBN
 %%6 h 00 m 0 R +1 +44.95 0 0 D  4 h 57 m 0 R +1 +33.17 0 0 D  mitte 0 (Aur) (Auriga) (Fuhrmann) SBN
-%%14 h 45 m 0 R +1 +27.00 0 0 D  14 h 30 m 0 R +1 +27.00 0 0 D  mitte 0 (Boo) (Bootes) (Bärenhüter) SBN
+%%14 h 45 m 0 R +1 +27.00 0 0 D  14 h 30 m 0 R +1 +27.00 0 0 D  mitte 0 (Boo) (Bootes) (BÃ¤renhÃ¼ter) SBN
 %%4 h 45 m 0 R +1 -35.00 0 0 D  4 h 45 m 0 R +1 -40.00 0 0 D  mitte 0 (Cae) (Caelum) (Grabstichel) SBN
 %%5 h 03 m 0 R +1 +60.44 0 0 D  4 h 54 m 0 R +1 +66.34 0 0 D  mitte 1 (Cam) (Camelopardalis) (Giraffe) SBN
 %%8 h 44 m 0 R +1 +17.44 0 0 D  8 h 43 m 0 R +1 +17.44 0 0 D  mitte 1 (Cnc) (Cancer) (Krebs) SBN
 %%12 h 56 m 0 R +1 +38.32 0 0 D  12 h 33 m 0 R +1 +41.36 0 0 D  mitte 1 (CVn) (Canes Venatici) (Jagdhunde) SBN
-%%6 h 54 m 0 R +1 -24.18 0 0 D  6 h 22 m 0 R +1 -24.18 0 0 D  mitte 1 (CMa) (Canis Major) (Großer Hund) SBN
+%%6 h 54 m 0 R +1 -24.18 0 0 D  6 h 22 m 0 R +1 -24.18 0 0 D  mitte 1 (CMa) (Canis Major) (GroÃŸer Hund) SBN
 %%7 h 39 m 0 R +1 +5.22 0 0 D  7 h 27 m 0 R +1 +8.29 0 0 D  mitte 1 (CMi) (Canis Minor) (Kleiner Hund) SBN
 %%21 h 06 m 0 R +1 -19.00 0 0 D  21 h 04 m 0 R +1 -19.00 0 0 D  mitte 0 (Cap) (Capricornus) (Steinbock) SBN
 %%8 h 22 m 0 R +1 -60.00 0 0 D  8 h 21 m 0 R +1 -60.00 0 0 D  mitte 0 (Car) (Carina) (Schiffskiel) SBN
@@ -3624,20 +3624,20 @@ restore
 %%14 h 39 m 0 R +1 -60.83 0 0 D  13 h 20 m 0 R +1 -36.71 0 0 D  mitte 0 (Cen) (Centaurus) (Zentaur) SBN
 %%23 h 08 m 0 R +1 +75.39 0 0 D  22 h 03 m 0 R +1 +64.63 0 0 D  mitte 1 (Cep) (Cepheus) (Kepheus) SBN
 %%1 h 30 m 0 R +1 -8.00 0 0 D  1 h 24 m 0 R +1 -8.00 0 0 D  mitte 1 (Cet) (Cetus) (Walfisch) SBN
-%%12 h 00 m 0 R +1 -78.22 0 0 D  8 h 18 m 0 R +1 -78.22 0 0 D  mitte 0 (Cha) (Chamaeleon) (Chamäleon) SBN
+%%12 h 00 m 0 R +1 -78.22 0 0 D  8 h 18 m 0 R +1 -78.22 0 0 D  mitte 0 (Cha) (Chamaeleon) (ChamÃ¤leon) SBN
 %%15 h 23 m 0 R +1 -59.32 0 0 D  14 h 41 m 0 R +1 -65.00 0 0 D  mitte 0 (Cir) (Circinus) (Zirkel) SBN
 %%5 h 39 m 0 R +1 -34.07 0 0 D  5 h 38 m 0 R +1 -34.07 0 0 D  mitte 1 (Col) (Columba) (Taube) SBN
 %%13 h 10 m 0 R +1 +17.53 0 0 D  12 h 27 m 0 R +1 +28.27 0 0 D  mitte 1 (Com) (Coma Berenices) (Haar der Berenike) SBN
-%%19 h 00 m 0 R +1 -42.00 0 0 D  19 h 00 m 0 R +1 -37.00 0 0 D  mitte 1 (CrA) (Corona Australis) (Südliche Krone) SBN
-%%15 h 57 m 0 R +1 +26.88 0 0 D  15 h 32 m 0 R +1 +31.39 0 0 D  mitte 1 (CrB) (Corona Borealis) (Nördliche Krone) SBN
+%%19 h 00 m 0 R +1 -42.00 0 0 D  19 h 00 m 0 R +1 -37.00 0 0 D  mitte 1 (CrA) (Corona Australis) (SÃ¼dliche Krone) SBN
+%%15 h 57 m 0 R +1 +26.88 0 0 D  15 h 32 m 0 R +1 +31.39 0 0 D  mitte 1 (CrB) (Corona Borealis) (NÃ¶rdliche Krone) SBN
 %%12 h 29 m 0 R +1 -16.00 0 0 D  12 h 15 m 0 R +1 -16.00 0 0 D  mitte 1 (Crv) (Corvus) (Rabe) SBN
 %%11 h 24 m 0 R +1 -17.68 0 0 D  11 h 19 m 0 R +1 -14.78 0 0 D  mitte 1 (Crt) (Crater) (Becher) SBN
-%%12 h 47 m 0 R +1 -59.69 0 0 D  12 h 15 m 0 R +1 -59.69 0 0 D  mitte 1 (Cru) (Crux) (Kreuz des Südens) SBN
+%%12 h 47 m 0 R +1 -59.69 0 0 D  12 h 15 m 0 R +1 -59.69 0 0 D  mitte 1 (Cru) (Crux) (Kreuz des SÃ¼dens) SBN
 %%20 h 46 m 0 R +1 +33.97 0 0 D  19 h 36 m 0 R +1 +50.22 0 0 D  mitte 1 (Cyg) (Cygnus) (Schwan) SBN
 %%21 h 00 m 0 R +1 +11.00 0 0 D  20 h 33 m 0 R +1 +11.00 0 0 D  mitte 0 (Del) (Delphinus) (Delphin) SBN
 %%5 h 33 m 0 R +1 -62.50 0 0 D  4 h 16 m 0 R +1 -51.49 0 0 D  mitte 0 (Dor) (Dorado) (Schwertfisch) SBN
 %%16 h 01 m 0 R +1 +58.57 0 0 D  15 h 24 m 0 R +1 +58.97 0 0 D  mitte 1 (Dra) (Draco) (Drache) SBN
-%%21 h 15 m 0 R +1 +5.25 0 0 D  21 h 10 m 0 R +1 +10.13 0 0 D  mitte 0 (Equ) (Equuleus) (Füllen) SBN
+%%21 h 15 m 0 R +1 +5.25 0 0 D  21 h 10 m 0 R +1 +10.13 0 0 D  mitte 0 (Equ) (Equuleus) (FÃ¼llen) SBN
 %%3 h 12 m 0 R +1 -29.99 0 0 D  2 h 49 m 0 R +1 -32.41 0 0 D  mitte 0 (For) (Fornax) (Chemischer Ofen) SBN
 %%7 h 25 m 0 R +1 +27.80 0 0 D  6 h 29 m 0 R +1 +20.21 0 0 D  mitte 0 (Gem) (Gemini) (Zwillinge) SBN
 %%22 h 42 m 0 R +1 -46.88 0 0 D  21 h 53 m 0 R +1 -37.37 0 0 D  mitte 0 (Gru) (Grus) (Kranich) SBN
@@ -3648,8 +3648,8 @@ restore
 %%1 h 58 m 0 R +1 -61.57 0 0 D  1 h 58 m 0 R +1 -77.25 0 0 D  mitte 1 (Hyi) (Hydrus) (Kleine Wasserschlange) SBN
 %%20 h 54 m 0 R +1 -58.45 0 0 D  20 h 37 m 0 R +1 -47.29 0 0 D  mitte 1 (Ind) (Indus) (Inder) SBN
 %%22 h 31 m 0 R +1 +50.28 0 0 D  22 h 31 m 0 R +1 +51.28 0 0 D  mitte 0 (Lac) (Lacerta) (Eidechse) SBN
-%%11 h 14 m 0 R +1 +18.00 0 0 D  10 h 08 m 0 R +1 +15.00 0 0 D  mitte 0 (Leo) (Leo) (Löwe) SBN
-%%10 h 53 m 0 R +1 +34.21 0 0 D  10 h 27 m 0 R +1 +36.71 0 0 D  mitte 0 (LMi) (Leo Minor) (Kleiner Löwe) SBN
+%%11 h 14 m 0 R +1 +18.00 0 0 D  10 h 08 m 0 R +1 +15.00 0 0 D  mitte 0 (Leo) (Leo) (LÃ¶we) SBN
+%%10 h 53 m 0 R +1 +34.21 0 0 D  10 h 27 m 0 R +1 +36.71 0 0 D  mitte 0 (LMi) (Leo Minor) (Kleiner LÃ¶we) SBN
 %%5 h 44 m 0 R +1 -22.45 0 0 D  5 h 05 m 0 R +1 -22.37 0 0 D  mitte 0 (Lep) (Lepus) (Hase) SBN
 %%15 h 17 m 0 R +1 -9.38 0 0 D  15 h 04 m 0 R +1 -25.28 0 0 D  mitte 0 (Lib) (Libra) (Waage) SBN
 %%15 h 35 m 0 R +1 -41.17 0 0 D  14 h 47 m 0 R +1 -47.39 0 0 D  mitte 0 (Lup) (Lupus) (Wolf) SBN
@@ -3657,21 +3657,21 @@ restore
 %%19 h 20 m 0 R +1 +32.69 0 0 D  18 h 40 m 0 R +1 +32.69 0 0 D  mitte 0 (Lyr) (Lyra) (Leier) SBN
 %%20 h 54 m 0 R +1 -37.37 0 0 D  20 h 54 m 0 R +1 -37.36 0 0 D  mitte 0 (Mic) (Microscopium) (Mikroskop) SBN
 %%12 h 32 m 0 R +1 -72.13 0 0 D  11 h 45 m 0 R +1 -66.73 0 0 D  mitte 0 (Mus) (Musca) (Fliege) SBN
-%%16 h 27 m 0 R +1 -47.55 0 0 D  16 h 19 m 0 R +1 -50.16 0 0 D  mitte 0 (Nor) (Norma) (Winkelmaß) SBN
+%%16 h 27 m 0 R +1 -47.55 0 0 D  16 h 19 m 0 R +1 -50.16 0 0 D  mitte 0 (Nor) (Norma) (WinkelmaÃŸ) SBN
 %%22 h 46 m 0 R +1 -81.38 0 0 D  14 h 26 m 0 R +1 -83.67 0 0 D  mitte 0 (Oct) (Octans) (Oktant) SBN
-%%18 h 00 m 0 R +1 -19.77 0 0 D  16 h 14 m 0 R +1 -3.69 0 0 D  mitte 0 (Oph) (Ophiuchus) (Schlangenträger) SBN
+%%18 h 00 m 0 R +1 -19.77 0 0 D  16 h 14 m 0 R +1 -3.69 0 0 D  mitte 0 (Oph) (Ophiuchus) (SchlangentrÃ¤ger) SBN
 %%5 h 47 m 0 R +1 -9.67 0 0 D  5 h 14 m 0 R +1 -9.67 0 0 D  mitte 0 (Ori) (Orion) (Orion) SBN
 %%18 h 56 m 0 R +1 -67.23 0 0 D  18 h 55 m 0 R +1 -67.23 0 0 D  mitte 1 (Pav) (Pavo) (Pfau) SBN
 %%23 h 30 m 0 R +1 +20.00 0 0 D  23 h 28 m 0 R +1 +20.00 0 0 D  mitte 1 (Peg) (Pegasus) (Pegasus) SBN
 %%3 h 57 m 0 R +1 +40.00 0 0 D  3 h 08 m 0 R +1 +41.00 0 0 D  mitte 0 (Per) (Perseus) (Perseus) SBN
-%%1 h 28 m 0 R +1 -43.32 0 0 D  0 h 26 m 0 R +1 -43.32 0 0 D  mitte 0 (Phe) (Phoenix) (Phönix) SBN
+%%1 h 28 m 0 R +1 -43.32 0 0 D  0 h 26 m 0 R +1 -43.32 0 0 D  mitte 0 (Phe) (Phoenix) (PhÃ¶nix) SBN
 %%5 h 49 m 0 R +1 -56.17 0 0 D  5 h 47 m 0 R +1 -51.01 0 0 D  mitte 0 (Pic) (Pictor) (Maler) SBN
 %%1 h 13 m 0 R +1 +7.58 0 0 D  0 h 48 m 0 R +1 +7.58 0 0 D  mitte 0 (Psc) (Pisces) (Fische) SBN
-%%22 h 50 m 0 R +1 -30.00 0 0 D  21 h 40 m 0 R +1 -30.00 0 0 D  mitte 0 (PsA) (Pisces Austrinus) (Südlicher Fisch) SBN
-%%8 h 50 m 0 R +1 -27.70 0 0 D  8 h 34 m 0 R +1 -33.20 0 0 D  mitte 0 (Pyx) (Pyxis) (Schiffskompaß) SBN
+%%22 h 50 m 0 R +1 -30.00 0 0 D  21 h 40 m 0 R +1 -30.00 0 0 D  mitte 0 (PsA) (Pisces Austrinus) (SÃ¼dlicher Fisch) SBN
+%%8 h 50 m 0 R +1 -27.70 0 0 D  8 h 34 m 0 R +1 -33.20 0 0 D  mitte 0 (Pyx) (Pyxis) (SchiffskompaÃŸ) SBN
 %%4 h 10 m 0 R +1 -59.30 0 0 D  4 h 00 m 0 R +1 -59.30 0 0 D  mitte 0 (Ret) (Reticulum) (Netz) SBN
 %%19 h 58 m 0 R +1 +19.49 0 0 D  19 h 41 m 0 R +1 +17.48 0 0 D  mitte 0 (Sge) (Sagitta) (Pfeil) SBN
-%%18 h 57 m 0 R +1 -21.11 0 0 D  18 h 13 m 0 R +1 -21.11 0 0 D  mitte 0 (Sgr) (Sagittarius) (Schütze) SBN
+%%18 h 57 m 0 R +1 -21.11 0 0 D  18 h 13 m 0 R +1 -21.11 0 0 D  mitte 0 (Sgr) (Sagittarius) (SchÃ¼tze) SBN
 %%16 h 50 m 0 R +1 -34.29 0 0 D  15 h 58 m 0 R +1 -26.11 0 0 D  mitte 0 (Sco) (Scorpius) (Skorpion) SBN
 %%0 h 58 m 0 R +1 -29.36 0 0 D  0 h 27 m 0 R +1 -29.36 0 0 D  mitte 0 (Scl) (Sculptor) (Bildhauer) SBN
 %%18 h 47 m 0 R +1 -4.75 0 0 D  18 h 35 m 0 R +1 -8.24 0 0 D  mitte 1 (Sct) (Scutum) (Schild) SBN
@@ -3680,14 +3680,14 @@ restore
 %%10 h 07 m 0 R +1 -0.37 0 0 D  9 h 52 m 0 R +1 -8.11 0 0 D  mitte 0 (Sex) (Sextans) (Sextant) SBN
 %%4 h 19 m 0 R +1 +15.63 0 0 D  3 h 27 m 0 R +1 +9.73 0 0 D  mitte 0 (Tau) (Taurus) (Stier) SBN
 %%2 h 17 m 0 R +1 +33.85 0 0 D  1 h 53 m 0 R +1 +29.58 0 0 D  mitte 0 (Tri) (Triangulum) (Dreieck) SBN
-%%16 h 48 m 0 R +1 -66.32 0 0 D  16 h 33 m 0 R +1 -66.32 0 0 D  mitte 0 (TrA) (Triangulum Australe) (Südliches Dreieck) SBN
+%%16 h 48 m 0 R +1 -66.32 0 0 D  16 h 33 m 0 R +1 -66.32 0 0 D  mitte 0 (TrA) (Triangulum Australe) (SÃ¼dliches Dreieck) SBN
 %%23 h 59 m 0 R +1 -60.26 0 0 D  22 h 40 m 0 R +1 -60.26 0 0 D  mitte 0 (Tuc) (Tucana) (Tukan) SBN
-%%13 h 23 m 0 R +1 +54.93 0 0 D  11 h 03 m 0 R +1 +61.75 0 0 D  mitte 1 (UMa) (Ursa Major) (Großer Bär) SBN
-%%17 h 32 m 0 R +1 +86.59 0 0 D  14 h 50 m 0 R +1 +74.14 0 0 D  mitte 1 (UMi) (Ursa Minor) (Kleiner Bär) SBN
+%%13 h 23 m 0 R +1 +54.93 0 0 D  11 h 03 m 0 R +1 +61.75 0 0 D  mitte 1 (UMa) (Ursa Major) (GroÃŸer BÃ¤r) SBN
+%%17 h 32 m 0 R +1 +86.59 0 0 D  14 h 50 m 0 R +1 +74.14 0 0 D  mitte 1 (UMi) (Ursa Minor) (Kleiner BÃ¤r) SBN
 %%9 h 22 m 0 R +1 -55.00 0 0 D  8 h 09 m 0 R +1 -47.34 0 0 D  mitte 1 (Vel) (Vela) (Segel) SBN
 %%13 h 10 m 0 R +1 -5.54 0 0 D  12 h 19 m 0 R +1 -0.67 0 0 D  mitte 1 (Vir) (Virgo) (Jungfrau) SBN
 %%8 h 20 m 0 R +1 -71.51 0 0 D  8 h 19 m 0 R +1 -71.51 0 0 D  mitte 1 (Vol) (Volans) (Fliegender Fisch) SBN
-%%20 h 10 m 0 R +1 +24.66 0 0 D  19 h 30 m 0 R +1 +24.66 0 0 D  mitte 0 (Vul) (Vulpecula) (Füchschen) SBN
+%%20 h 10 m 0 R +1 +24.66 0 0 D  19 h 30 m 0 R +1 +24.66 0 0 D  mitte 0 (Vul) (Vulpecula) (FÃ¼chschen) SBN
 
 
 %%	1  Galaxie
